@@ -1,0 +1,28 @@
+.messages {
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.me {
+  justify-content: flex-end;
+}
+
+.user {
+  justify-content: flex-start;
+}
+
+.user span {
+  font-weight: bold;
+}
+
+.text {
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  max-width: 70%;
+}
